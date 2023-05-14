@@ -1,0 +1,32 @@
+.footer {
+    background-color: #474747;
+}
+
+.footer__container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+.footer__blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+   
+}
+
+.footer__blocks-icon {
+    width: 67px;
+    height: 67px;
+
+}
+

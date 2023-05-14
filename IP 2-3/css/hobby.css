@@ -1,0 +1,45 @@
+.hobby__container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 40px;
+}
+
+.hobby__blocks {
+    position: relative;
+    left: 50px;
+}
+
+.hobby__blocks-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+
+}
+
+.hobby__info-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+.hobby__blocks-text {
+    font-size: 24px;
+    max-width: 1180px;
+    line-height: 1.2;
+    text-align: justify;
+    font-family: "inter", "Overpass", sans-serif;
+    margin-top: 35px;
+}
+
+.hobby__info-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

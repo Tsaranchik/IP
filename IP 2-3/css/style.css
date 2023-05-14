@@ -1,0 +1,88 @@
+* {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-bg{
+    background-color: #292929;
+}
+
+.header{
+    background-color: #474747;
+}
+
+.header__container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.header__logo{
+    width: 100px;
+    height: 100px;
+}
+
+.header__menu-link{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+.main__conatainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 295px 20px;
+}
+
+.main__info-text {
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 400px;
+    text-align: center;
+    line-height: 1.2;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+.main__img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.main__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: none;
+    border: 1px solid #207246;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 15px 40px;
+    transition: 1.0s;
+}
+
+.main__btn:hover{
+    background: #303030;
+    cursor: pointer;
+}
+
+.main__btn:active{
+    background-color: #151515;
+}
+
+
+
+
+

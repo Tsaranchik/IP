@@ -1,0 +1,51 @@
+.signin__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 269px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+p {
+    margin: 10px 0;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: "inter", "Overpass", sans-serif;
+    
+}
+
+input {
+    background: #5f5f5f;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+button {
+    padding: 10px;
+    background: #5f5f5f;
+    border: unset;
+    cursor: pointer;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+label {
+    font-family: "inter", "Overpass", sans-serif;
+}

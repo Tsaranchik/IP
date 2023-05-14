@@ -1,0 +1,52 @@
+.blogue__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 217px;
+}
+
+.blogue__info-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+.blogue__info-text {
+    font-size: 27px;
+    max-width: 200px;
+    line-height: 2;
+    text-align: center;
+    font-family: "inter", "Overpass", sans-serif;
+}
+
+.blogue__img-block{
+    width: 200px;
+    height: 200px;
+    
+    /* анимация измениня ширины и позиции */
+    transition: all 0.5s;
+}
+.blogue__info-img{
+    width: 100%;
+    height: 100%;
+}
+
+.blogue__img-blocks {
+    /* нужно для изначальной сетки */
+    display: flex;
+    max-width: 680px;
+    width: 100%;
+    flex-wrap: wrap;
+    /* отступы между всему блоками */
+    gap:40px;
+    height: 700px;
+    /* относительно этого элемента позиционируется блоки картинок */
+
+    position: relative;
+}
+
